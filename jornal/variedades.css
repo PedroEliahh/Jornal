@@ -1,0 +1,74 @@
+main {
+    margin:5vh 0;
+}
+h2 {
+    margin-left:5vw;
+}
+/* geral */
+section {
+    margin-top:5vh;
+}
+.titulo {
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+}
+h3 {
+    font-size: 22px;
+}
+.tag {
+    background-color:rgb(216, 216, 216);
+    padding:7px;
+    border-radius:20px;
+    margin:0 5px;
+}
+
+/* horóscopo & caça-palavras */
+.horoscopo, .cacaPalavras {
+    display:grid;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: auto;
+    gap: 10vw;
+    justify-content: center;
+}
+.horoscopo img, .cacaPalavras img {
+    width:30vw;
+}
+
+
+/* charge & poemas */
+.container {
+    display:grid;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: auto auto;
+    gap: 3vh 10vw;
+    justify-content: center;
+}
+.poemas h3, .charges h3 {
+    margin-left:14.5vw;
+}
+
+/* charge */
+.container div img {
+    height:auto;
+    width:30vw;
+}
+.charges .container img:first-of-type, .charges img:nth-of-type(2) {
+    margin-top:5px;
+}
+.charges .container div p:nth-of-type(2) {
+    display:inline;
+}
+
+/* poemas */
+.poemas div:first-of-type, .poemas div:nth-of-type(2) {
+    margin-top:3vh;
+}
+.poema p:first-child {
+    font-weight: bold;
+    font-size:18px;
+}
+.poema p:nth-child(2) {
+    font-size:12px;
+    margin-bottom:2vh;
+}
